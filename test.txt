@@ -1,1 +1,2 @@
-Git learn today
+Git learn today.
+Creating a new branch is quick.
