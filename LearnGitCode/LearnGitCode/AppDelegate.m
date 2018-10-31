@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NetworkManager.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,7 @@
     NSLog(@"log Dev2");
     NSLog(@"log dev1");
     NSLog(@"log Dev3");
+    [[NetworkManager sharedNetworkManger] log];
     return YES;
 }
 

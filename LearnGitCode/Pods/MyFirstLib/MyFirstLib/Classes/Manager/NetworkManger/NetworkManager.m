@@ -10,4 +10,19 @@
 
 @implementation NetworkManager
 
++ (instancetype)sharedNetworkManger {
+    static NetworkManager *manager = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (nil == manager) {
+            manager = [[NetworkManager alloc] init];
+        }
+    });
+    return manager;
+}
+
+- (void)log {
+    NSLog(@"NetworkManger");
+}
+
 @end

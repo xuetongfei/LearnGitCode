@@ -1,5 +1,5 @@
 PODS:
-  - MyFirstLib (0.1.1)
+  - MyFirstLib (0.1.2)
 
 DEPENDENCIES:
   - MyFirstLib
@@ -9,7 +9,7 @@ SPEC REPOS:
     - MyFirstLib
 
 SPEC CHECKSUMS:
-  MyFirstLib: 9762ddbfada4cad21ec6ebd5d86d45bf27710bfb
+  MyFirstLib: 8cc1b3330fb1d9d5d5170c1bb4281a720d43887f
 
 PODFILE CHECKSUM: a4f5f347c10f70518302a1f0683dbeccb7a9463e
 
