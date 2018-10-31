@@ -1,0 +1,16 @@
+PODS:
+  - MyFirstLib (0.1.1)
+
+DEPENDENCIES:
+  - MyFirstLib
+
+SPEC REPOS:
+  "git@github.com:xuexiaobai/PrivatePodRepo.git":
+    - MyFirstLib
+
+SPEC CHECKSUMS:
+  MyFirstLib: 9762ddbfada4cad21ec6ebd5d86d45bf27710bfb
+
+PODFILE CHECKSUM: a4f5f347c10f70518302a1f0683dbeccb7a9463e
+
+COCOAPODS: 1.5.3

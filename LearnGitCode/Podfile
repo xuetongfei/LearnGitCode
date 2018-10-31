@@ -1,0 +1,9 @@
+use_frameworks!
+
+source 'git@github.com:xuexiaobai/PrivatePodRepo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'LearnGitCode' do
+    pod 'MyFirstLib'
+end

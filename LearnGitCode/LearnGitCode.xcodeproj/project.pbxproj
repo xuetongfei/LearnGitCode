@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B19DAF8CB46EC13A1105F1F /* Pods_LearnGitCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8273E5AF9D9228AE72A1D7 /* Pods_LearnGitCode.framework */; };
 		5A148A80218821BC00A02743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A148A7F218821BC00A02743 /* AppDelegate.m */; };
 		5A148A83218821BC00A02743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A148A82218821BC00A02743 /* ViewController.m */; };
 		5A148A86218821BC00A02743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A148A84218821BC00A02743 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C7B6227FB6E1A9DEAD84DE /* Pods-LearnGitCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnGitCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnGitCode/Pods-LearnGitCode.debug.xcconfig"; sourceTree = "<group>"; };
 		5A148A7B218821BC00A02743 /* LearnGitCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnGitCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A148A7E218821BC00A02743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A148A7F218821BC00A02743 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		5A148A9E218821BE00A02743 /* LearnGitCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A148AA2218821BE00A02743 /* LearnGitCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitCodeUITests.m; sourceTree = "<group>"; };
 		5A148AA4218821BE00A02743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739898874D5C0FF95F52BEE5 /* Pods-LearnGitCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnGitCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnGitCode/Pods-LearnGitCode.release.xcconfig"; sourceTree = "<group>"; };
+		DE8273E5AF9D9228AE72A1D7 /* Pods_LearnGitCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnGitCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B19DAF8CB46EC13A1105F1F /* Pods_LearnGitCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				5A148A96218821BE00A02743 /* LearnGitCodeTests */,
 				5A148AA1218821BE00A02743 /* LearnGitCodeUITests */,
 				5A148A7C218821BC00A02743 /* Products */,
+				6D34EB59B834152C217EA26B /* Pods */,
+				658138054B1EBA4A90784179 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +139,23 @@
 			path = LearnGitCodeUITests;
 			sourceTree = "<group>";
 		};
+		658138054B1EBA4A90784179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8273E5AF9D9228AE72A1D7 /* Pods_LearnGitCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D34EB59B834152C217EA26B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C7B6227FB6E1A9DEAD84DE /* Pods-LearnGitCode.debug.xcconfig */,
+				739898874D5C0FF95F52BEE5 /* Pods-LearnGitCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A148AA7218821BE00A02743 /* Build configuration list for PBXNativeTarget "LearnGitCode" */;
 			buildPhases = (
+				F0AFB3361E91DAD76790D90B /* [CP] Check Pods Manifest.lock */,
 				5A148A77218821BC00A02743 /* Sources */,
 				5A148A78218821BC00A02743 /* Frameworks */,
 				5A148A79218821BC00A02743 /* Resources */,
+				529C11F3390F5602481F3D46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +282,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		529C11F3390F5602481F3D46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearnGitCode/Pods-LearnGitCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MyFirstLib/MyFirstLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFirstLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearnGitCode/Pods-LearnGitCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0AFB3361E91DAD76790D90B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnGitCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A148A77218821BC00A02743 /* Sources */ = {
@@ -433,6 +506,7 @@
 		};
 		5A148AA8218821BE00A02743 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C7B6227FB6E1A9DEAD84DE /* Pods-LearnGitCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +524,7 @@
 		};
 		5A148AA9218821BE00A02743 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739898874D5C0FF95F52BEE5 /* Pods-LearnGitCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
