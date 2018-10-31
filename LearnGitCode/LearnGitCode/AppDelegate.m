@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "NetworkManager.h"
+#import "DataOperation.h"
 
 @interface AppDelegate ()
 
@@ -22,6 +23,7 @@
     NSLog(@"log dev1");
     NSLog(@"log Dev3");
     [[NetworkManager sharedNetworkManger] log];
+    [[DataOperation sharedDataOperation] performSelector:@selector(log) withObject:nil];
     return YES;
 }
 

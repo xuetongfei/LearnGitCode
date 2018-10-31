@@ -1,9 +1,10 @@
 use_frameworks!
 
-source 'git@github.com:xuexiaobai/PrivatePodRepo.git'
 source 'https://github.com/CocoaPods/Specs.git'
-
+source 'git@github.com:xuexiaobai/PrivatePodRepo.git'
+source 'git@github.com:xuexiaobai/TF-Specs.git'
 
 target 'LearnGitCode' do
     pod 'MyFirstLib'
+    pod 'DataManager', '~> 2.0.5'
 end

@@ -293,12 +293,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LearnGitCode/Pods-LearnGitCode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DataManager/DataManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MyFirstLib/MyFirstLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DataManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyFirstLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

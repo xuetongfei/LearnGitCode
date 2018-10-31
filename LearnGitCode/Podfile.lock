@@ -1,16 +1,21 @@
 PODS:
+  - DataManager (2.0.5)
   - MyFirstLib (0.1.2)
 
 DEPENDENCIES:
+  - DataManager (~> 2.0.5)
   - MyFirstLib
 
 SPEC REPOS:
   "git@github.com:xuexiaobai/PrivatePodRepo.git":
     - MyFirstLib
+  "git@github.com:xuexiaobai/TF-Specs.git":
+    - DataManager
 
 SPEC CHECKSUMS:
+  DataManager: c5f02a72c2384ee71d8e0769ad91d107a91e5642
   MyFirstLib: 8cc1b3330fb1d9d5d5170c1bb4281a720d43887f
 
-PODFILE CHECKSUM: a4f5f347c10f70518302a1f0683dbeccb7a9463e
+PODFILE CHECKSUM: d8f4b7c31baf92b32febf8cf5743301b7421d861
 
 COCOAPODS: 1.5.3
