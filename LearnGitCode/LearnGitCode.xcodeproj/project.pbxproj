@@ -16,6 +16,7 @@
 		5A148A8E218821BE00A02743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A148A8D218821BE00A02743 /* main.m */; };
 		5A148A98218821BE00A02743 /* LearnGitCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A148A97218821BE00A02743 /* LearnGitCodeTests.m */; };
 		5A148AA3218821BE00A02743 /* LearnGitCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A148AA2218821BE00A02743 /* LearnGitCodeUITests.m */; };
+		5A5D3DE2218B0CAA003BFEEB /* TFTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5D3DE1218B0CAA003BFEEB /* TFTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5A148A9E218821BE00A02743 /* LearnGitCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A148AA2218821BE00A02743 /* LearnGitCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitCodeUITests.m; sourceTree = "<group>"; };
 		5A148AA4218821BE00A02743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5D3DE0218B0CAA003BFEEB /* TFTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTimer.h; sourceTree = "<group>"; };
+		5A5D3DE1218B0CAA003BFEEB /* TFTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTimer.m; sourceTree = "<group>"; };
 		739898874D5C0FF95F52BEE5 /* Pods-LearnGitCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnGitCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnGitCode/Pods-LearnGitCode.release.xcconfig"; sourceTree = "<group>"; };
 		DE8273E5AF9D9228AE72A1D7 /* Pods_LearnGitCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnGitCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +115,8 @@
 				5A148A7F218821BC00A02743 /* AppDelegate.m */,
 				5A148A81218821BC00A02743 /* ViewController.h */,
 				5A148A82218821BC00A02743 /* ViewController.m */,
+				5A5D3DE0218B0CAA003BFEEB /* TFTimer.h */,
+				5A5D3DE1218B0CAA003BFEEB /* TFTimer.m */,
 				5A148A84218821BC00A02743 /* Main.storyboard */,
 				5A148A87218821BE00A02743 /* Assets.xcassets */,
 				5A148A89218821BE00A02743 /* LaunchScreen.storyboard */,
@@ -340,6 +345,7 @@
 				5A148A83218821BC00A02743 /* ViewController.m in Sources */,
 				5A148A8E218821BE00A02743 /* main.m in Sources */,
 				5A148A80218821BC00A02743 /* AppDelegate.m in Sources */,
+				5A5D3DE2218B0CAA003BFEEB /* TFTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
