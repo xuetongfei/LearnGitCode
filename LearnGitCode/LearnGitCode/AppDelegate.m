@@ -24,7 +24,6 @@
     NSLog(@"log Dev3");
     [[NetworkManager sharedNetworkManger] log];
     [[DataOperation sharedDataOperation] performSelector:@selector(log) withObject:nil];
-    NSLog(@"log Dev4");
     return YES;
 }
 
