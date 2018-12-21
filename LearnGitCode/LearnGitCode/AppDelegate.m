@@ -24,6 +24,7 @@
     NSLog(@"log Dev3");
     [[NetworkManager sharedNetworkManger] log];
     [[DataOperation sharedDataOperation] performSelector:@selector(log) withObject:nil];
+    NSLog(@"duoyu");
     return YES;
 }
 
