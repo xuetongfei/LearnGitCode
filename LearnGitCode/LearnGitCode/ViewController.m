@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "TFTimer.h"
 
 @interface ViewController ()
 
@@ -19,11 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     printf("maste");
+<<<<<<< HEAD
     
     [TFTimer new];
     
     NSLog(@"%s,%d",__func__,__LINE__);
     
+=======
+>>>>>>> parent of c971ead... 提交Timer
 }
 
 
