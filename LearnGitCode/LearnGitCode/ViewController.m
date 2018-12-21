@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TFTimer.h"
 
 @interface ViewController ()
 
