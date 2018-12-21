@@ -22,6 +22,8 @@
     
     [TFTimer new];
     
+    NSLog(@"%s,%d",__func__,__LINE__);
+    
 }
 
 
