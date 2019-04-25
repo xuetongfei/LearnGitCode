@@ -18,10 +18,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    NSLog(@"log Dev2");
-    NSLog(@"log dev1");
-    NSLog(@"log Dev3");
     [[NetworkManager sharedNetworkManger] log];
     [[DataOperation sharedDataOperation] performSelector:@selector(log) withObject:nil];
     return YES;
