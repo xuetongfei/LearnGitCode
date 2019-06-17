@@ -19,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[NetworkManager sharedNetworkManger] log];
+    
     [[DataOperation sharedDataOperation] performSelector:@selector(log) withObject:nil];
     
     return YES;
