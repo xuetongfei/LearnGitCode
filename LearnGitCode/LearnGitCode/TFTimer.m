@@ -21,6 +21,7 @@
     self = [super init];
     if (self) {
         [self.timer fire];
+        NSLog(@"%@",self);
     }
     return self;
 }
