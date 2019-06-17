@@ -21,7 +21,6 @@
     [[NetworkManager sharedNetworkManger] log];
     
     [[DataOperation sharedDataOperation] performSelector:@selector(log) withObject:nil];
-    
     return YES;
 }
 
