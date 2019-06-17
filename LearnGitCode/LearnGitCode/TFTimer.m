@@ -38,8 +38,4 @@
     
 }
 
-- (void)methodTwo {
-    
-}
-
 @end
