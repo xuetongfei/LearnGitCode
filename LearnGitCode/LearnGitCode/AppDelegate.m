@@ -21,6 +21,7 @@
     [[NetworkManager sharedNetworkManger] log];
     
     [[DataOperation sharedDataOperation] performSelector:@selector(log) withObject:nil];
+    NSLog(@"%@",self);
     return YES;
 }
 
